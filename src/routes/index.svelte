@@ -31,6 +31,9 @@ import { onMount } from "svelte";
     }
     async function minus(params) {
         loading= true
+        if(count - 1 <0){
+            return;
+        }
         count = count - 1
         let { data } = await supabase
         .from('counter')
