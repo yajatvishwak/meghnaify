@@ -52,7 +52,7 @@ import { onMount } from "svelte";
     <img src="image.png" class="object-cover w-full h-full absolute top-0 left-0 z-0 opacity-20" alt="" srcset="">
     <div class="z-10 max-w-screen-sm p-10">
         <div class="text-5xl text-center">Meghnaify</div>
-        <div class="opacity-50 newfont text-center">increment the counter everytime meg uses a reference to a meme, yt video, movie or anything</div>
+        <div class="opacity-50 newfont text-center"> +1 everytime meg uses a reference to a meme, yt video, movie or anything</div>
         <div class="text-7xl text-center mt-10 flex items-center justify-between">
             <div class="p-4 rounded-full hover:bg-gray-800 transition-all" on:click={minus}>
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
