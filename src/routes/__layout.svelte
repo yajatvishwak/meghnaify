@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </svelte:head>
 
-
+<slot />
   <style global>    
     body{
         font-family: 'Rock 3D', cursive;
